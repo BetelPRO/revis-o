@@ -1,6 +1,6 @@
-i = "s"
+condict = "s"
 
-while i == "s":
+while condict == "s":
     num = float(input("Digite qualquer número: "))
 
     if num%2 == 1:
@@ -14,4 +14,4 @@ while i == "s":
         else:
             print("O número é Par e Positivo")
 
-    i = input("Digite s para continuar ou outro caracter para parar: ")
+    condict = input("Digite s para continuar ou outro caracter para parar: ")
